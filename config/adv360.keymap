@@ -17,6 +17,8 @@
             bindings = <&kp RET>;
         };
 
+        #endif
+
         lm: lm {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
@@ -35,8 +37,6 @@
                 <&macro_release>,
                 <&mo MACRO_PLACEHOLDER>;
         };
-
-        #endif
 
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
