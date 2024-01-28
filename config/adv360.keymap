@@ -17,13 +17,6 @@
             bindings = <&kp RET>;
         };
 
-        modifier_momentary_layer: modifier_momentary_layer {
-            compatible = "zmk,behavior-macro-two-param";
-            #binding-cells = <2>;
-            bindings = <&macro_param_1to1 &mo MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
-            label = "MODIFIER_MOMENTARY_LAYER";
-        };
-
         #endif
 
         hm: homerow_mods {
