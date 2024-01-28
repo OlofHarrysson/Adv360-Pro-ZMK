@@ -19,7 +19,7 @@
 
         #endif
 
-        mom_layer_modifier: lm {
+        mom_layer_modifier: mom_layer_modifier {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
